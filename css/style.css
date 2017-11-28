@@ -1,11 +1,6 @@
 body{
   margin: 0 auto;
   background-color: #222222;
-  /*background-image:url('../images/card2.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;*/
-
 }
 header{
   display: inline-block;
@@ -17,12 +12,6 @@ a{
   color: inherit;
 }
 
-.content{
-  color: #EAC807;
-  font-family: 'Jockey One', sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
 h1#name{
   color: #222222;
   margin-left: 33%;
@@ -49,10 +38,17 @@ img.header{
   margin-left: 50%;
 }
 div.content{
-  padding-left: 33%;
-  padding-right: 33%;
+  /*display:flex;
+  justify-content: center;
+  align-items: center;*/
+  color: #EAC807;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left:33%;
+  padding-right:33%;
 }
 footer{
-  margin-left:45%;
-
+  display: flex;
+  justify-content: center;
 }
