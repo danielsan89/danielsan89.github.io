@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+DTSTART:20180325T020000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:BST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20171029T010000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:GMT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20171206T184232Z
+UID:9abe0789-071c-43cd-8f7a-6026a27932ae
+DTSTART;TZID=Europe/London:20171208T110000
+DTEND;TZID=Europe/London:20171208T113000
+DESCRIPTION:Hi&nbsp\;Daniel\,<br /><br />You're confirmed for:&nbsp\;Dec 8t
+ h\, 11:00am-11:30am GMT: Sadiya Naeem<br /><br />Thanks!<br /><br />\n<div>
+ Kind regards\,</div>\n<div>Sadiya Naeem</div>\n<div>--</div>\n<div><span st
+ yle="font-size: xx-small\;">Direct:&nbsp\;</span><span style="font-size: xx
+ -small\;">0203 883 9198</span>&nbsp\;/&nbsp\;<span style="font-size: 11px\;
+ ">US</span><span style="font-size: 11px\;">:&nbsp\;</span><span style="font
+ -size: xx-small\;">+1 (646) 859-1785 x1006</span>&nbsp\;/ &nbsp\;<span styl
+ e="font-size: 11px\;">UK</span><span style="font-size: 11px\;">:</span><spa
+ n style="font-size: xx-small\;"><span style="font-size: 11px\;">&nbsp\;</sp
+ an>+44 207 183 0447</span></div>\n<div><span style="font-size: xx-small\;">
+ <a href="http://edited.com/" target="_blank" rel="noopener">http://edited.c
+ om</a>&nbsp\;&nbsp\;/ &nbsp\;@EDITED_HQ</span></div>\n<div>&nbsp\;</div>\n<
+ div><span style="font-size: xx-small\;">We're hiring! See what it's like to
+  work with us at&nbsp\;<a href="https://edited.com/jobs/" target="_blank" r
+ el="noopener">https://edited.com/jobs/</a></span></div>
+SUMMARY:Interview with EDITED
+END:VEVENT
+END:VCALENDAR
