@@ -14,15 +14,18 @@ a{
 
 h1#name{
   color: #222222;
-  margin-left: 33%;
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
 }
 h1#surname{
   color: #222222;
-  margin-left: 38%;
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
+  text-align: center;
 }
 img.footer{
   width:50px;
@@ -35,12 +38,11 @@ img.header{
   border: 10px solid #222222;
   height: 200px;
   width: 200px;
-  margin-left: 50%;
+  display: block;
+  margin: 0 auto;
 }
 div.content{
-  /*display:flex;
-  justify-content: center;
-  align-items: center;*/
+  margin-top:200px;
   color: #EAC807;
   font-family: 'Jockey One', sans-serif;
   font-size: 20px;
