@@ -14,7 +14,7 @@ a{
 
 h1#name{
   color: #222222;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 50px;
   display: block;
   margin: 0 auto;
@@ -23,7 +23,7 @@ h1#name{
 }
 h1#surname{
   color: #222222;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 50px;
   text-align: center;
 }
