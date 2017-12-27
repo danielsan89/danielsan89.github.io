@@ -15,18 +15,14 @@ a{
 h1#name{
   color: #222222;
   font-family: 'Lobster', cursive;
-  font-size: 150px;
+  font-size: 120px;
   display: block;
   margin: 0 auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
-h1#surname{
-  color: #222222;
-  font-family: 'Lobster', cursive;
-  font-size: 50px;
-  text-align: center;
-}
+
 img.footer{
   width:50px;
   height:50px;
