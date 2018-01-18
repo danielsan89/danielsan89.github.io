@@ -38,13 +38,23 @@ img.header{
   margin: 0 auto;
 }
 div.content{
-  margin-top:200px;
+
   color: #EAC807;
   font-family: 'Jockey One', sans-serif;
   font-size: 20px;
   text-align: center;
+  padding-top: 100px;
   padding-left:33%;
   padding-right:33%;
+}
+div.projects{
+  display: flex;
+  justify-content: center;
+}
+img.projects{
+  border: 2px solid #EAC807;
+  height: 200px;
+  width: 200px;
 }
 footer{
   display: flex;
