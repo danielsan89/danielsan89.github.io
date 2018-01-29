@@ -14,7 +14,8 @@ a{
 
 h1#name{
   color: #222222;
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Ubuntu', sans-serif;
   font-size: 120px;
   display: block;
   margin: 0 auto;
@@ -24,7 +25,9 @@ h1#name{
 }
 h1#projects{
   color: white;
-  font-family: 'Jockey One', sans-serif;
+  /* font-family: 'Jockey One', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 45px;
   display: block;
   margin: 0 auto;
@@ -48,7 +51,9 @@ img.header{
 }
 div.content{
   color: #EAC807;
-  font-family: 'Jockey One', sans-serif;
+  /* font-family: 'Jockey One', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-top: 100px;
