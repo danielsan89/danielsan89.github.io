@@ -24,7 +24,7 @@ h1#name{
 }
 h1#projects{
   color: white;
-  font-family: 'Lobster', cursive;
+  font-family: 'Jockey One', sans-serif;
   font-size: 45px;
   display: block;
   margin: 0 auto;
@@ -52,6 +52,8 @@ div.content{
   font-size: 20px;
   text-align: center;
   padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 section.projectsSection{
   /* background-color: grey; */
@@ -90,9 +92,8 @@ div.projects a{
   color: white;
 }
 div.bio{
-  padding-top: 20px;
-  padding-left: 33%;
-  padding-right:33%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 footer{
   display: flex;
