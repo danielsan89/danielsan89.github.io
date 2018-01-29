@@ -23,7 +23,7 @@ h1#name{
   text-align: center;
 }
 h1#projects{
-  color: #222222;
+  color: white;
   font-family: 'Lobster', cursive;
   font-size: 45px;
   display: block;
@@ -55,7 +55,6 @@ div.content{
 }
 section.projectsSection{
   /* background-color: grey; */
-  background-color: #EAC807;
   width:100%;
   height:100%;
   margin: 0;
@@ -80,15 +79,20 @@ div.project img{
   text-align: center;
   border-radius: 50%;
   margin: 0 20px 0 20px;
-  border: 5px solid #222222;
+  border: 2px solid LightGrey;
   height: 100px;
   width: 100px;
 }
+div.project img:hover{
+  -webkit-filter: grayscale(100%);
+}
 div.projects a{
-  color: #222222;
+  color: white;
 }
 div.bio{
   padding-top: 20px;
+  padding-left: 33%;
+  padding-right:33%;
 }
 footer{
   display: flex;
