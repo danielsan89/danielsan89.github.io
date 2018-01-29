@@ -79,11 +79,12 @@ div.project{
 div.project img{
   display: block;
   text-align: center;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 0 20px 0 20px;
-  border: 2px solid LightGrey;
-  height: 100px;
-  width: 100px;
+  /* border: 2px solid LightGrey; */
+  height: 120px;
+  width: 120px;
+  transition: all 2s ease;
 }
 div.project img:hover{
   -webkit-filter: grayscale(100%);
