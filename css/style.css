@@ -38,7 +38,6 @@ img.header{
   margin: 0 auto;
 }
 div.content{
-
   color: #EAC807;
   font-family: 'Jockey One', sans-serif;
   font-size: 20px;
@@ -50,11 +49,15 @@ div.content{
 div.projects{
   display: flex;
   justify-content: center;
+  background-color: #EAC807;
+  width:100%;
 }
-img.projects{
-  border: 2px solid #EAC807;
-  height: 200px;
-  width: 200px;
+div.project img{
+  border-radius: 50%;
+  margin: 0 2px 0 2px;
+  border: 5px solid #000;
+  height: 100px;
+  width: 100px;
 }
 footer{
   display: flex;
