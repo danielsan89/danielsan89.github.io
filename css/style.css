@@ -43,21 +43,36 @@ div.content{
   font-size: 20px;
   text-align: center;
   padding-top: 100px;
-  padding-left:33%;
-  padding-right:33%;
+  /*padding-left:33%;
+  padding-right:33%; */
+}
+section.projectsSection{
+  background-color: #EAC807;
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
 }
 div.projects{
   display: flex;
   justify-content: center;
-  background-color: #EAC807;
-  width:100%;
+
+}
+div.project{
+  text-align: center;
 }
 div.project img{
+  display: block;
+  text-align: center;
   border-radius: 50%;
-  margin: 0 2px 0 2px;
-  border: 5px solid #000;
+  margin: 0 20px 0 20px;
+  border: 5px solid #222222;
   height: 100px;
   width: 100px;
+}
+div.projects a{
+  color: #222222;
 }
 footer{
   display: flex;
