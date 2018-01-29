@@ -22,6 +22,15 @@ h1#name{
   padding-bottom: 20px;
   text-align: center;
 }
+h1#projects{
+  color: #222222;
+  font-family: 'Lobster', cursive;
+  font-size: 45px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
 img.footer{
   width:50px;
@@ -43,17 +52,20 @@ div.content{
   font-size: 20px;
   text-align: center;
   padding-top: 100px;
-  /*padding-left:33%;
-  padding-right:33%; */
 }
 section.projectsSection{
+  /* background-color: grey; */
   background-color: #EAC807;
-
   width:100%;
   height:100%;
   margin: 0;
-  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   display: inline-block;
+
+}
+section.projectsSection a{
+  text-decoration: none;
 }
 div.projects{
   display: flex;
@@ -75,7 +87,15 @@ div.project img{
 div.projects a{
   color: #222222;
 }
+div.bio{
+  padding-top: 20px;
+}
 footer{
   display: flex;
   justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
