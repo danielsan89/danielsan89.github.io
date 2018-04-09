@@ -14,7 +14,6 @@ a{
 
 h1.name{
   color: #222222;
-  /* font-family: 'Lobster', cursive; */
   font-family: 'Ubuntu', sans-serif;
   font-size: 70px;
   font-weight: bold;
@@ -32,10 +31,10 @@ h3.name{
   padding-bottom: 50px;
   text-align: center;
 }
-h1#projects{
+h2#projects{
   color: white;
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 45px;
+  /* font-size: 45px; */
   display: block;
   margin: 0 auto;
   padding-bottom: 20px;
@@ -48,18 +47,31 @@ img.footer{
   filter: invert(100%);
   padding: 3px;
 }
+hr{
+  border-color: #EAC807;
+}
 img.header{
+  /* border-radius: 50%; */
+  /* border: 10px solid #222222; */
   border-radius: 50%;
-  border: 10px solid #222222;
+  border-color: #222222;
+  /* border-top-color: #EAC807;
+  border-bottom-color: #222222;
+  border-left-color: #EAC807; */
+  box-shadow: 0px 0px 0px 5px #EAC807;
+  border-width: 10px;
+  border-style: solid;
+  /* height: 0px;
+  width: 0px; */
+
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
   display: block;
   margin: 0 auto;
+  position:relative;
 }
 div.content{
-  color: #EAC807;
-  /* font-family: 'Jockey One', sans-serif; */
-  /* font-family: 'Ubuntu', sans-serif; */
+  color: white;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
   text-align: center;
@@ -72,6 +84,7 @@ section.projectsSection{
   height:100%;
   padding-right: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
   display: inline-block;
 
 }
@@ -91,24 +104,30 @@ div.project img{
   text-align: center;
   border-radius: 50%;
   margin: 0 20px 0 20px;
-  border: 5px solid black;
+  border: 2px solid #EAC807;
   height: 100px;
   width: 100px;
 }
 div.project img:hover{
-  border: 5px solid #EAC807;
+  border: 2px solid white;
 }
 div.projects a{
+  color: #EAC807;
+}
+div.projects a:hover{
   color: white;
 }
 div.bio{
   padding-left: 30%;
   padding-right: 30%;
 }
+div.bio a{
+  color: #EAC807;
+}
 footer{
   display: flex;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   bottom: 0;
   height: 100px;
