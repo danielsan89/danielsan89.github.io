@@ -14,7 +14,7 @@ a{
 
 h1.name{
   color: #222222;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 70px;
   font-weight: bold;
   display: block;
@@ -23,9 +23,12 @@ h1.name{
   padding-bottom: 20px;
   text-align: center;
 }
+h3.location{
+  color:#EAC807;
+}
 h3.name{
   color: #222222;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   display: block;
   margin: 0 auto;
   padding-bottom: 50px;
@@ -47,9 +50,6 @@ img.footer{
   filter: invert(100%);
   padding: 3px;
 }
-hr{
-  border-color: #EAC807;
-}
 img.header{
   /* border-radius: 50%; */
   /* border: 10px solid #222222; */
@@ -58,7 +58,7 @@ img.header{
   /* border-top-color: #EAC807;
   border-bottom-color: #222222;
   border-left-color: #EAC807; */
-  box-shadow: 0px 0px 0px 5px #EAC807;
+  /* box-shadow: 0px 0px 0px 5px #EAC807; */
   border-width: 10px;
   border-style: solid;
   /* height: 0px;
@@ -104,15 +104,15 @@ div.project img{
   text-align: center;
   border-radius: 50%;
   margin: 0 20px 0 20px;
-  border: 2px solid #EAC807;
+  border: 4px solid black;
   height: 100px;
   width: 100px;
 }
 div.project img:hover{
-  border: 2px solid white;
+  border: 4px solid white;
 }
 div.projects a{
-  color: #EAC807;
+  color: white;
 }
 div.projects a:hover{
   color: white;
